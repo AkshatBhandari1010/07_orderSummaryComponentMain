@@ -1,0 +1,15 @@
+.heroSection {
+  border-radius: 10px 10px 0 0;
+  background: url("../images/illustration-hero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 13em;
+  width: 26em;
+}
+
+@media (max-width: 376px) {
+  .heroSection {
+    height: 11em;
+    width: 21em;
+  }
+}

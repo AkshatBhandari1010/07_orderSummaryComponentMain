@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap");
+/* font-family: 'Red Hat Display', sans-serif; */
+.planCard {
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0 0 1.5em 0;
+  padding: 0.3em 1em;
+}
+.left {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+  user-select: none;
+}
+.musicIcon {
+  background: url("../images/icon-music.svg");
+  height: 3em;
+  margin: 0 1em 0 0;
+  width: 3em;
+}
+.planName {
+  padding: 1.5em 0 0 0;
+}
+.left p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+.right {
+  display: flex;
+  flex: 1;
+}
+.planChangeLink {
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: 700;
+}
+.planChangeLink:hover {
+  color: hsl(244, 80%, 64%);
+  text-decoration: none;
+}

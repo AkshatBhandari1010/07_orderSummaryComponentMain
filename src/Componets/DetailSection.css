@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap");
+/* font-family: 'Red Hat Display', sans-serif; */
+.detailSection {
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 2.5em 2em 1em 2em;
+}
+.detailSection > * {
+  justify-content: center;
+  text-align: center;
+}
+.detailSection h1 {
+  margin: 0 0 0.5em 0;
+  user-select: none;
+}
+.detailSection p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.4em;
+  margin: 0 0 1.5em 0;
+  user-select: none;
+}
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(196, 196, 196);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0 0 2em 0;
+  outline: none;
+  padding: 1em 0;
+}
+.btn:hover {
+  background-color: hsl(244, 80%, 64%);
+}
+.cancelLink {
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.cancelLink:hover {
+  color: hsl(223, 47%, 23%);
+}

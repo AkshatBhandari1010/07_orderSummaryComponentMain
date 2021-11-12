@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap");
+/* font-family: 'Red Hat Display', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bodyContainer {
+  background: url("../images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.outerContainer {
+  background-color: white;
+  border-radius: 15px;
+  height: 40em;
+  width: 26em;
+}
+
+@media (max-width: 376px) {
+  .bodyContainer {
+    background: url("../images/pattern-background-mobile.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .outerContainer {
+    height: 38em;
+    width: 21em;
+  }
+}
